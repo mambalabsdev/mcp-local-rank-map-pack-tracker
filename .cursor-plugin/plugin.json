@@ -1,0 +1,31 @@
+{
+  "name": "mcp-local-rank-map-pack-tracker",
+  "displayName": "Local Rank and Map Pack Tracker",
+  "version": "1.0.0",
+  "description": "MCP server for Local Rank and Map Pack Tracker. Google organic position, map pack position, and local finder position of a business for each keyword and location, searched from the location itself, with ratings, competitors, and rank change. Runs on Apify. Clay-ready output.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-local-rank-map-pack-tracker",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "local-seo",
+    "rank-tracker",
+    "google-maps",
+    "apify",
+    "clay"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "local-seo",
+    "rank-tracker",
+    "google-maps",
+    "apify",
+    "clay"
+  ],
+  "mcpServers": ".mcp.json"
+}

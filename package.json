@@ -1,0 +1,50 @@
+{
+  "name": "@mambalabsdev/mcp-local-rank-map-pack-tracker",
+  "version": "1.0.0",
+  "description": "MCP server for Local Rank and Map Pack Tracker. Google organic position, map pack position, and local finder position of a business for each keyword and location, searched from the location itself, with ratings, competitors, and rank change. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-local-rank-map-pack-tracker": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "local-seo",
+    "rank-tracker",
+    "google-maps",
+    "map-pack",
+    "serp",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/local-rank-map-pack-tracker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-local-rank-map-pack-tracker"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-local-rank-map-pack-tracker"
+}

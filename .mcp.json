@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-local-rank-map-pack-tracker": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-local-rank-map-pack-tracker"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
