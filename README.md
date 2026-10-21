@@ -99,8 +99,8 @@ Pay per event on Apify, billed to your Apify account. Prices in USD.
 
 | Event | Free plan | Bronze | Silver | Gold |
 |---|---|---|---|---|
-| `rank-check`, one keyword in one location, Google page one included | $0.02 | $0.019 | $0.018 | $0.017 |
-| `extra-page`, organic page 2 and up, or the local finder | $0.018 | $0.0171 | $0.0162 | $0.0153 |
+| `rank-check`, one keyword in one location, Google page one included | $0.055 | $0.05225 | $0.0495 | $0.04675 |
+| `extra-page`, organic page 2 and up, or the local finder | $0.0495 | $0.0171 | $0.0162 | $0.0153 |
 | `apify-actor-start`, per run start | $0.002 | $0.002 | $0.002 | $0.002 |
 
 Blocked and error rows are free.
