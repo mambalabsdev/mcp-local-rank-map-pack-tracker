@@ -1,7 +1,7 @@
 {
   "name": "mcp-local-rank-map-pack-tracker",
   "displayName": "Local Rank and Map Pack Tracker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Local Rank and Map Pack Tracker. Google organic position, map pack position, and local finder position of a business for each keyword and location, searched from the location itself, with ratings, competitors, and rank change. Runs on Apify. Clay-ready output.",
   "author": {
     "name": "Mamba Labs",
